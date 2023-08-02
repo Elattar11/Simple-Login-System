@@ -1,0 +1,85 @@
+body
+{
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+#home
+{
+    height: 75vh;
+}
+.group
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+h1
+{
+    color: #17a2b8;
+    font-family: inherit;
+    font-size: calc(1.375rem + 1.5vw);
+}
+a
+{
+    text-decoration: none;
+}
+input
+{
+    background-color: transparent !important;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+input:focus
+{
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+input::-webkit-input-placeholder
+{
+    color: #9dada7 !important;
+}
+a:hover
+{
+    text-decoration: underline;
+}   
+
+h3
+{
+    color: #fff !important;;
+}
+
+.navlinks
+{
+    text-decoration: none;
+}
+
+.navlinks:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popUp
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popUp .myAlert
+{
+    width: 40%;
+    height: 30%;
+    background-color: #24353f;
+    border-radius: 5px;
+    color: #fff !important;;
+}
+
+.popUp .myAlert .icn
+{
+    top: 2%;
+    right: 2%;
+}
+.popUp .myAlert .icn:hover
+{
+    cursor: pointer;
+}
+
